@@ -6,6 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "st-research-agent"
 version = "0.10.0"
 description = "Local research copilot for reproducible spatial transcriptomics analysis"
+readme = "README.md"
 requires-python = ">=3.11,<3.12"
 license = {text = "Academic use"}
 authors = [{name = "ST Agent Project"}]

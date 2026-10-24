@@ -127,3 +127,13 @@ knowledge/models/
 /data/
 /knowledge/README.md
 /knowledge/literature/
+
+# User-facing publication allowlist
+!/README.md
+!/USER_GUIDE.md
+/assets/*
+!/assets/images/
+/assets/images/*
+!/assets/images/workbench.png
+!/assets/images/umap.png
+!/assets/images/spatial-clusters.png
