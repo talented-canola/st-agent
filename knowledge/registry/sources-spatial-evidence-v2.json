@@ -1,0 +1,869 @@
+{
+  "schema_version": 1,
+  "origin": "external_original",
+  "sources": [
+    {
+      "source_key": "scanpy-qc",
+      "version": "1.11.5@cf8b46dea735c35a629abfaa2e1bab9047281e34",
+      "title": "Scanpy official API docstrings: calculate_qc_metrics",
+      "publisher": "scverse / Scanpy contributors",
+      "canonical_uri": "https://github.com/scverse/scanpy/blob/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/preprocessing/_qc.py",
+      "fetch_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/preprocessing/_qc.py",
+      "format": "python_docstrings",
+      "role": "method",
+      "selectors": [
+        "calculate_qc_metrics"
+      ],
+      "license": "BSD-3-Clause",
+      "license_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/LICENSE",
+      "license_marker": "BSD 3-Clause License",
+      "conditions": {
+        "software": "scanpy",
+        "software_version": "1.11.5",
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "quality_control",
+        "count_source"
+      ]
+    },
+    {
+      "source_key": "scanpy-filter-log",
+      "version": "1.11.5@cf8b46dea735c35a629abfaa2e1bab9047281e34",
+      "title": "Scanpy official API docstrings: filter_cells, filter_genes, log1p",
+      "publisher": "scverse / Scanpy contributors",
+      "canonical_uri": "https://github.com/scverse/scanpy/blob/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/preprocessing/_simple.py",
+      "fetch_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/preprocessing/_simple.py",
+      "format": "python_docstrings",
+      "role": "method",
+      "selectors": [
+        "filter_cells",
+        "filter_genes",
+        "log1p"
+      ],
+      "license": "BSD-3-Clause",
+      "license_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/LICENSE",
+      "license_marker": "BSD 3-Clause License",
+      "conditions": {
+        "software": "scanpy",
+        "software_version": "1.11.5",
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "filtering",
+        "log_transform"
+      ]
+    },
+    {
+      "source_key": "scanpy-normalization",
+      "version": "1.11.5@cf8b46dea735c35a629abfaa2e1bab9047281e34",
+      "title": "Scanpy official API docstrings: normalize_total",
+      "publisher": "scverse / Scanpy contributors",
+      "canonical_uri": "https://github.com/scverse/scanpy/blob/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/preprocessing/_normalization.py",
+      "fetch_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/preprocessing/_normalization.py",
+      "format": "python_docstrings",
+      "role": "method",
+      "selectors": [
+        "normalize_total"
+      ],
+      "license": "BSD-3-Clause",
+      "license_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/LICENSE",
+      "license_marker": "BSD 3-Clause License",
+      "conditions": {
+        "software": "scanpy",
+        "software_version": "1.11.5",
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "normalization"
+      ]
+    },
+    {
+      "source_key": "scanpy-scale",
+      "version": "1.11.5@cf8b46dea735c35a629abfaa2e1bab9047281e34",
+      "title": "Scanpy official API docstrings: scale",
+      "publisher": "scverse / Scanpy contributors",
+      "canonical_uri": "https://github.com/scverse/scanpy/blob/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/preprocessing/_scale.py",
+      "fetch_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/preprocessing/_scale.py",
+      "format": "python_docstrings",
+      "role": "method",
+      "selectors": [
+        "scale"
+      ],
+      "license": "BSD-3-Clause",
+      "license_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/LICENSE",
+      "license_marker": "BSD 3-Clause License",
+      "conditions": {
+        "software": "scanpy",
+        "software_version": "1.11.5",
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "scaling"
+      ]
+    },
+    {
+      "source_key": "scanpy-hvg",
+      "version": "1.11.5@cf8b46dea735c35a629abfaa2e1bab9047281e34",
+      "title": "Scanpy official API docstrings: highly_variable_genes",
+      "publisher": "scverse / Scanpy contributors",
+      "canonical_uri": "https://github.com/scverse/scanpy/blob/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/preprocessing/_highly_variable_genes.py",
+      "fetch_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/preprocessing/_highly_variable_genes.py",
+      "format": "python_docstrings",
+      "role": "method",
+      "selectors": [
+        "highly_variable_genes"
+      ],
+      "license": "BSD-3-Clause",
+      "license_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/LICENSE",
+      "license_marker": "BSD 3-Clause License",
+      "conditions": {
+        "software": "scanpy",
+        "software_version": "1.11.5",
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "feature_selection",
+        "batch_key"
+      ]
+    },
+    {
+      "source_key": "scanpy-pca",
+      "version": "1.11.5@cf8b46dea735c35a629abfaa2e1bab9047281e34",
+      "title": "Scanpy official API docstrings: pca",
+      "publisher": "scverse / Scanpy contributors",
+      "canonical_uri": "https://github.com/scverse/scanpy/blob/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/preprocessing/_pca/__init__.py",
+      "fetch_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/preprocessing/_pca/__init__.py",
+      "format": "python_docstrings",
+      "role": "method",
+      "selectors": [
+        "pca"
+      ],
+      "license": "BSD-3-Clause",
+      "license_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/LICENSE",
+      "license_marker": "BSD 3-Clause License",
+      "conditions": {
+        "software": "scanpy",
+        "software_version": "1.11.5",
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "dimensionality_reduction"
+      ]
+    },
+    {
+      "source_key": "scanpy-neighbors",
+      "version": "1.11.5@cf8b46dea735c35a629abfaa2e1bab9047281e34",
+      "title": "Scanpy official API docstrings: neighbors",
+      "publisher": "scverse / Scanpy contributors",
+      "canonical_uri": "https://github.com/scverse/scanpy/blob/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/neighbors/__init__.py",
+      "fetch_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/neighbors/__init__.py",
+      "format": "python_docstrings",
+      "role": "method",
+      "selectors": [
+        "neighbors"
+      ],
+      "license": "BSD-3-Clause",
+      "license_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/LICENSE",
+      "license_marker": "BSD 3-Clause License",
+      "conditions": {
+        "software": "scanpy",
+        "software_version": "1.11.5",
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "neighbor_graph"
+      ]
+    },
+    {
+      "source_key": "scanpy-leiden",
+      "version": "1.11.5@cf8b46dea735c35a629abfaa2e1bab9047281e34",
+      "title": "Scanpy official API docstrings: leiden",
+      "publisher": "scverse / Scanpy contributors",
+      "canonical_uri": "https://github.com/scverse/scanpy/blob/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/tools/_leiden.py",
+      "fetch_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/tools/_leiden.py",
+      "format": "python_docstrings",
+      "role": "method",
+      "selectors": [
+        "leiden"
+      ],
+      "license": "BSD-3-Clause",
+      "license_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/LICENSE",
+      "license_marker": "BSD 3-Clause License",
+      "conditions": {
+        "software": "scanpy",
+        "software_version": "1.11.5",
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "clustering",
+        "resolution"
+      ]
+    },
+    {
+      "source_key": "scanpy-umap",
+      "version": "1.11.5@cf8b46dea735c35a629abfaa2e1bab9047281e34",
+      "title": "Scanpy official API docstrings: umap",
+      "publisher": "scverse / Scanpy contributors",
+      "canonical_uri": "https://github.com/scverse/scanpy/blob/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/tools/_umap.py",
+      "fetch_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/tools/_umap.py",
+      "format": "python_docstrings",
+      "role": "method",
+      "selectors": [
+        "umap"
+      ],
+      "license": "BSD-3-Clause",
+      "license_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/LICENSE",
+      "license_marker": "BSD 3-Clause License",
+      "conditions": {
+        "software": "scanpy",
+        "software_version": "1.11.5",
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "embedding"
+      ]
+    },
+    {
+      "source_key": "scanpy-markers",
+      "version": "1.11.5@cf8b46dea735c35a629abfaa2e1bab9047281e34",
+      "title": "Scanpy official API docstrings: rank_genes_groups, filter_rank_genes_groups",
+      "publisher": "scverse / Scanpy contributors",
+      "canonical_uri": "https://github.com/scverse/scanpy/blob/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/tools/_rank_genes_groups.py",
+      "fetch_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/tools/_rank_genes_groups.py",
+      "format": "python_docstrings",
+      "role": "method",
+      "selectors": [
+        "rank_genes_groups",
+        "filter_rank_genes_groups"
+      ],
+      "license": "BSD-3-Clause",
+      "license_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/LICENSE",
+      "license_marker": "BSD 3-Clause License",
+      "conditions": {
+        "software": "scanpy",
+        "software_version": "1.11.5",
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "differential_expression",
+        "markers",
+        "test_assumptions"
+      ]
+    },
+    {
+      "source_key": "scanpy-dotplot",
+      "version": "1.11.5@cf8b46dea735c35a629abfaa2e1bab9047281e34",
+      "title": "Scanpy official API docstrings: dotplot",
+      "publisher": "scverse / Scanpy contributors",
+      "canonical_uri": "https://github.com/scverse/scanpy/blob/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/plotting/_dotplot.py",
+      "fetch_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/plotting/_dotplot.py",
+      "format": "python_docstrings",
+      "role": "method",
+      "selectors": [
+        "dotplot"
+      ],
+      "license": "BSD-3-Clause",
+      "license_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/LICENSE",
+      "license_marker": "BSD 3-Clause License",
+      "conditions": {
+        "software": "scanpy",
+        "software_version": "1.11.5",
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "marker_visualization"
+      ]
+    },
+    {
+      "source_key": "scanpy-matrixplot",
+      "version": "1.11.5@cf8b46dea735c35a629abfaa2e1bab9047281e34",
+      "title": "Scanpy official API docstrings: matrixplot",
+      "publisher": "scverse / Scanpy contributors",
+      "canonical_uri": "https://github.com/scverse/scanpy/blob/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/plotting/_matrixplot.py",
+      "fetch_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/plotting/_matrixplot.py",
+      "format": "python_docstrings",
+      "role": "method",
+      "selectors": [
+        "matrixplot"
+      ],
+      "license": "BSD-3-Clause",
+      "license_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/LICENSE",
+      "license_marker": "BSD 3-Clause License",
+      "conditions": {
+        "software": "scanpy",
+        "software_version": "1.11.5",
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "marker_visualization"
+      ]
+    },
+    {
+      "source_key": "scanpy-scatter",
+      "version": "1.11.5@cf8b46dea735c35a629abfaa2e1bab9047281e34",
+      "title": "Scanpy official API docstrings: embedding, umap, spatial",
+      "publisher": "scverse / Scanpy contributors",
+      "canonical_uri": "https://github.com/scverse/scanpy/blob/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/plotting/_tools/scatterplots.py",
+      "fetch_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/plotting/_tools/scatterplots.py",
+      "format": "python_docstrings",
+      "role": "method",
+      "selectors": [
+        "embedding",
+        "umap",
+        "spatial"
+      ],
+      "license": "BSD-3-Clause",
+      "license_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/LICENSE",
+      "license_marker": "BSD 3-Clause License",
+      "conditions": {
+        "software": "scanpy",
+        "software_version": "1.11.5",
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "embedding_visualization",
+        "spatial_coordinates"
+      ]
+    },
+    {
+      "source_key": "scanpy-qc-plot",
+      "version": "1.11.5@cf8b46dea735c35a629abfaa2e1bab9047281e34",
+      "title": "Scanpy official API docstrings: violin",
+      "publisher": "scverse / Scanpy contributors",
+      "canonical_uri": "https://github.com/scverse/scanpy/blob/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/plotting/_anndata.py",
+      "fetch_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/plotting/_anndata.py",
+      "format": "python_docstrings",
+      "role": "method",
+      "selectors": [
+        "violin"
+      ],
+      "license": "BSD-3-Clause",
+      "license_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/LICENSE",
+      "license_marker": "BSD 3-Clause License",
+      "conditions": {
+        "software": "scanpy",
+        "software_version": "1.11.5",
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "quality_control_visualization"
+      ]
+    },
+    {
+      "source_key": "anndata-model",
+      "version": "0.12.19@16932f22d2a2542f1f8f0864fa34af2d6bc515c3",
+      "title": "AnnData official data model and serialization docstrings",
+      "publisher": "scverse / AnnData contributors",
+      "canonical_uri": "https://github.com/scverse/anndata/blob/16932f22d2a2542f1f8f0864fa34af2d6bc515c3/src/anndata/_core/anndata.py",
+      "fetch_url": "https://raw.githubusercontent.com/scverse/anndata/16932f22d2a2542f1f8f0864fa34af2d6bc515c3/src/anndata/_core/anndata.py",
+      "format": "python_docstrings",
+      "role": "method",
+      "selectors": [
+        "AnnData",
+        "AnnData.raw",
+        "AnnData.write_h5ad"
+      ],
+      "license": "BSD-3-Clause",
+      "license_url": "https://raw.githubusercontent.com/scverse/anndata/16932f22d2a2542f1f8f0864fa34af2d6bc515c3/LICENSE",
+      "license_marker": "BSD 3-Clause License",
+      "conditions": {
+        "software": "anndata",
+        "software_version": "0.12.19",
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "data_model",
+        "raw_vs_processed",
+        "h5ad_serialization"
+      ]
+    },
+    {
+      "source_key": "paper-squidpy",
+      "version": "2022-PMC8828470-snapshot1",
+      "title": "Squidpy: a scalable framework for spatial omics analysis",
+      "publisher": "Nature Methods / article authors",
+      "canonical_uri": "https://doi.org/10.1038/s41592-021-01358-2",
+      "fetch_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8828470/fullTextXML",
+      "format": "jats",
+      "role": "scientific_evidence",
+      "license": "CC-BY-4.0",
+      "license_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8828470/fullTextXML",
+      "license_marker": "creativecommons.org/licenses/by/4.0",
+      "doi": "10.1038/s41592-021-01358-2",
+      "pmcid": "PMC8828470",
+      "conditions": {
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "spatial_methods",
+        "spatial_neighbors",
+        "image_features",
+        "method_scope"
+      ]
+    },
+    {
+      "source_key": "spatialagent-annotation",
+      "version": "521ea0374451875db1697d4ade8f4479244d1ee4",
+      "title": "SpatialAgent external workflow reference: annotation",
+      "publisher": "Genentech / SpatialAgent contributors",
+      "canonical_uri": "https://github.com/Genentech/SpatialAgent/blob/521ea0374451875db1697d4ade8f4479244d1ee4/spatialagent/skill/annotation.md",
+      "fetch_url": "https://raw.githubusercontent.com/Genentech/SpatialAgent/521ea0374451875db1697d4ade8f4479244d1ee4/spatialagent/skill/annotation.md",
+      "format": "markdown",
+      "role": "workflow_reference",
+      "license": "MIT",
+      "license_url": "https://raw.githubusercontent.com/Genentech/SpatialAgent/521ea0374451875db1697d4ade8f4479244d1ee4/LICENSE.txt",
+      "license_marker": "MIT License",
+      "conditions": {
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "cell_annotation",
+        "marker_validation"
+      ]
+    },
+    {
+      "source_key": "spatialagent-panel_design",
+      "version": "521ea0374451875db1697d4ade8f4479244d1ee4",
+      "title": "SpatialAgent external workflow reference: panel_design",
+      "publisher": "Genentech / SpatialAgent contributors",
+      "canonical_uri": "https://github.com/Genentech/SpatialAgent/blob/521ea0374451875db1697d4ade8f4479244d1ee4/spatialagent/skill/panel_design.md",
+      "fetch_url": "https://raw.githubusercontent.com/Genentech/SpatialAgent/521ea0374451875db1697d4ade8f4479244d1ee4/spatialagent/skill/panel_design.md",
+      "format": "markdown",
+      "role": "workflow_reference",
+      "license": "MIT",
+      "license_url": "https://raw.githubusercontent.com/Genentech/SpatialAgent/521ea0374451875db1697d4ade8f4479244d1ee4/LICENSE.txt",
+      "license_marker": "MIT License",
+      "conditions": {
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "targeted_panel_design",
+        "gene_selection"
+      ]
+    },
+    {
+      "source_key": "paper-deconvolution-benchmark",
+      "version": "2023-PMC10027878-20261003-39de70b8250f",
+      "title": "A comprehensive benchmarking with practical guidelines for cellular deconvolution of spatial transcriptomics.",
+      "publisher": "Nature communications",
+      "canonical_uri": "https://doi.org/10.1038/s41467-023-37168-7",
+      "fetch_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10027878/fullTextXML",
+      "format": "jats",
+      "role": "scientific_evidence",
+      "origin": "external_original",
+      "selectors": [],
+      "html_selector": "main",
+      "license": "CC-BY-4.0",
+      "license_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10027878/fullTextXML",
+      "license_marker": "creativecommons.org/licenses/by/4.0",
+      "expected_sha256": "39de70b8250f24cec76fbc4d588ced65e5421adfb2370763a5c4831224ae22b5",
+      "doi": "10.1038/s41467-023-37168-7",
+      "pmcid": "PMC10027878",
+      "conditions": {
+        "species": null,
+        "tissue": null,
+        "developmental_stage": null,
+        "platform": null,
+        "software": null,
+        "software_version": null
+      },
+      "topics": [
+        "cell_deconvolution",
+        "benchmark",
+        "reference_mismatch",
+        "method_scope"
+      ]
+    },
+    {
+      "source_key": "paper-svg-evaluation",
+      "version": "2024-PMC10789051-20261003-d883a119d72b",
+      "title": "Evaluating spatially variable gene detection methods for spatial transcriptomics data.",
+      "publisher": "Genome biology",
+      "canonical_uri": "https://doi.org/10.1186/s13059-023-03145-y",
+      "fetch_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10789051/fullTextXML",
+      "format": "jats",
+      "role": "scientific_evidence",
+      "origin": "external_original",
+      "selectors": [],
+      "html_selector": "main",
+      "license": "CC-BY-4.0",
+      "license_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10789051/fullTextXML",
+      "license_marker": "creativecommons.org/licenses/by/4.0",
+      "expected_sha256": "d883a119d72bdbd5da1c43ced8c2dc427c3e9fcad8542c82e9ddb709de50e40b",
+      "doi": "10.1186/s13059-023-03145-y",
+      "pmcid": "PMC10789051",
+      "conditions": {
+        "species": null,
+        "tissue": null,
+        "developmental_stage": null,
+        "platform": null,
+        "software": null,
+        "software_version": null
+      },
+      "topics": [
+        "spatially_variable_genes",
+        "benchmark",
+        "statistical_assumptions"
+      ]
+    },
+    {
+      "source_key": "paper-svg-benchmark",
+      "version": "2025-PMC12036962-20261003-4ac234c77b51",
+      "title": "Benchmarking algorithms for spatially variable gene identification in spatial transcriptomics.",
+      "publisher": "Bioinformatics (Oxford, England)",
+      "canonical_uri": "https://doi.org/10.1093/bioinformatics/btaf131",
+      "fetch_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12036962/fullTextXML",
+      "format": "jats",
+      "role": "scientific_evidence",
+      "origin": "external_original",
+      "selectors": [],
+      "html_selector": "main",
+      "license": "CC-BY-4.0",
+      "license_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12036962/fullTextXML",
+      "license_marker": "creativecommons.org/licenses/by/4.0",
+      "expected_sha256": "4ac234c77b51c103b75b450e3279aa7ea1a0c881aa986aff8537495449e64c69",
+      "doi": "10.1093/bioinformatics/btaf131",
+      "pmcid": "PMC12036962",
+      "conditions": {
+        "species": null,
+        "tissue": null,
+        "developmental_stage": null,
+        "platform": null,
+        "software": null,
+        "software_version": null
+      },
+      "topics": [
+        "spatially_variable_genes",
+        "benchmark",
+        "false_positive_control"
+      ]
+    },
+    {
+      "source_key": "paper-stagate",
+      "version": "2022-PMC8976049-20261003-49bc0979867c",
+      "title": "Deciphering spatial domains from spatially resolved transcriptomics with an adaptive graph attention auto-encoder.",
+      "publisher": "Nature communications",
+      "canonical_uri": "https://doi.org/10.1038/s41467-022-29439-6",
+      "fetch_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8976049/fullTextXML",
+      "format": "jats",
+      "role": "scientific_evidence",
+      "origin": "external_original",
+      "selectors": [],
+      "html_selector": "main",
+      "license": "CC-BY-4.0",
+      "license_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8976049/fullTextXML",
+      "license_marker": "creativecommons.org/licenses/by/4.0",
+      "expected_sha256": "49bc0979867c32af2a84651df23beeb2d2fb17713296859a76d8b59eba30e45d",
+      "doi": "10.1038/s41467-022-29439-6",
+      "pmcid": "PMC8976049",
+      "conditions": {
+        "species": null,
+        "tissue": null,
+        "developmental_stage": null,
+        "platform": null,
+        "software": null,
+        "software_version": null
+      },
+      "topics": [
+        "spatial_domains",
+        "spatial_graph",
+        "method_scope"
+      ]
+    },
+    {
+      "source_key": "paper-commot",
+      "version": "2023-PMC9911355-20261003-d46f286ebba9",
+      "title": "Screening cell-cell communication in spatial transcriptomics via collective optimal transport.",
+      "publisher": "Nature methods",
+      "canonical_uri": "https://doi.org/10.1038/s41592-022-01728-4",
+      "fetch_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9911355/fullTextXML",
+      "format": "jats",
+      "role": "scientific_evidence",
+      "origin": "external_original",
+      "selectors": [],
+      "html_selector": "main",
+      "license": "CC-BY-4.0",
+      "license_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9911355/fullTextXML",
+      "license_marker": "creativecommons.org/licenses/by/4.0",
+      "expected_sha256": "d46f286ebba9797625a8617f2b75b3e68bde6ba9b34050fba26cd54a7aa1c458",
+      "doi": "10.1038/s41592-022-01728-4",
+      "pmcid": "PMC9911355",
+      "conditions": {
+        "species": null,
+        "tissue": null,
+        "developmental_stage": null,
+        "platform": null,
+        "software": null,
+        "software_version": null
+      },
+      "topics": [
+        "cell_communication",
+        "spatial_association",
+        "interpretation_limits"
+      ]
+    },
+    {
+      "source_key": "paper-liana-plus",
+      "version": "2024-PMC11392821-20261003-740b16f005c4",
+      "title": "LIANA+ provides an all-in-one framework for cell-cell communication inference.",
+      "publisher": "Nature cell biology",
+      "canonical_uri": "https://doi.org/10.1038/s41556-024-01469-w",
+      "fetch_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11392821/fullTextXML",
+      "format": "jats",
+      "role": "scientific_evidence",
+      "origin": "external_original",
+      "selectors": [],
+      "html_selector": "main",
+      "license": "CC-BY-4.0",
+      "license_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11392821/fullTextXML",
+      "license_marker": "creativecommons.org/licenses/by/4.0",
+      "expected_sha256": "740b16f005c4342874e711740d927cf8255b563046049ab3ade292a3f1370a3b",
+      "doi": "10.1038/s41556-024-01469-w",
+      "pmcid": "PMC11392821",
+      "conditions": {
+        "species": null,
+        "tissue": null,
+        "developmental_stage": null,
+        "platform": null,
+        "software": null,
+        "software_version": null
+      },
+      "topics": [
+        "cell_communication",
+        "benchmark",
+        "interpretation_limits"
+      ]
+    },
+    {
+      "source_key": "paper-spatial-platform-benchmark",
+      "version": "2024-PMC11399101-20261003-505b1c6e6569",
+      "title": "Systematic comparison of sequencing-based spatial transcriptomic methods.",
+      "publisher": "Nature methods",
+      "canonical_uri": "https://doi.org/10.1038/s41592-024-02325-3",
+      "fetch_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11399101/fullTextXML",
+      "format": "jats",
+      "role": "scientific_evidence",
+      "origin": "external_original",
+      "selectors": [],
+      "html_selector": "main",
+      "license": "CC-BY-4.0",
+      "license_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11399101/fullTextXML",
+      "license_marker": "creativecommons.org/licenses/by/4.0",
+      "expected_sha256": "505b1c6e656938461ba12e4fcf9e87dfe07d6411f07580827a1712b4f4074f88",
+      "doi": "10.1038/s41592-024-02325-3",
+      "pmcid": "PMC11399101",
+      "conditions": {
+        "species": null,
+        "tissue": null,
+        "developmental_stage": null,
+        "platform": null,
+        "software": null,
+        "software_version": null
+      },
+      "topics": [
+        "platform_comparison",
+        "benchmark",
+        "technical_bias"
+      ]
+    },
+    {
+      "source_key": "paper-stdeconvolve",
+      "version": "2022-PMC9055051-20261003-5cfcdf2cb745",
+      "title": "Reference-free cell type deconvolution of multi-cellular pixel-resolution spatially resolved transcriptomics data.",
+      "publisher": "Nature communications",
+      "canonical_uri": "https://doi.org/10.1038/s41467-022-30033-z",
+      "fetch_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9055051/fullTextXML",
+      "format": "jats",
+      "role": "scientific_evidence",
+      "origin": "external_original",
+      "selectors": [],
+      "html_selector": "main",
+      "license": "CC-BY-4.0",
+      "license_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9055051/fullTextXML",
+      "license_marker": "creativecommons.org/licenses/by/4.0",
+      "expected_sha256": "5cfcdf2cb7456c0d026c00ce2966e40f39172a6f0448d4e0f13b2bee3e2b5bc3",
+      "doi": "10.1038/s41467-022-30033-z",
+      "pmcid": "PMC9055051",
+      "conditions": {
+        "species": null,
+        "tissue": null,
+        "developmental_stage": null,
+        "platform": null,
+        "software": null,
+        "software_version": null
+      },
+      "topics": [
+        "cell_deconvolution",
+        "reference_free",
+        "method_scope"
+      ]
+    },
+    {
+      "source_key": "paper-spark-x",
+      "version": "2021-PMC8218388-20261003-6baec92fed11",
+      "title": "SPARK-X: non-parametric modeling enables scalable and robust detection of spatial expression patterns for large spatial transcriptomic studies.",
+      "publisher": "Genome biology",
+      "canonical_uri": "https://doi.org/10.1186/s13059-021-02404-0",
+      "fetch_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8218388/fullTextXML",
+      "format": "jats",
+      "role": "scientific_evidence",
+      "origin": "external_original",
+      "selectors": [],
+      "html_selector": "main",
+      "license": "CC-BY-4.0",
+      "license_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8218388/fullTextXML",
+      "license_marker": "creativecommons.org/licenses/by/4.0",
+      "expected_sha256": "6baec92fed11b187c4395917f60e475a2981f7243ab9c1b5572d499938fc98d9",
+      "doi": "10.1186/s13059-021-02404-0",
+      "pmcid": "PMC8218388",
+      "conditions": {
+        "species": null,
+        "tissue": null,
+        "developmental_stage": null,
+        "platform": null,
+        "software": null,
+        "software_version": null
+      },
+      "topics": [
+        "spatially_variable_genes",
+        "statistical_assumptions",
+        "scalability"
+      ]
+    },
+    {
+      "source_key": "paper-banksy",
+      "version": "2024-PMC10937399-20261003-2887dd2cd5ba",
+      "title": "BANKSY unifies cell typing and tissue domain segmentation for scalable spatial omics data analysis.",
+      "publisher": "Nature genetics",
+      "canonical_uri": "https://doi.org/10.1038/s41588-024-01664-3",
+      "fetch_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10937399/fullTextXML",
+      "format": "jats",
+      "role": "scientific_evidence",
+      "origin": "external_original",
+      "selectors": [],
+      "html_selector": "main",
+      "license": "CC-BY-4.0",
+      "license_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10937399/fullTextXML",
+      "license_marker": "creativecommons.org/licenses/by/4.0",
+      "expected_sha256": "2887dd2cd5ba52d9904835027987f2d0545a8984da67128fdae6fbf2c6a881d5",
+      "doi": "10.1038/s41588-024-01664-3",
+      "pmcid": "PMC10937399",
+      "conditions": {
+        "species": null,
+        "tissue": null,
+        "developmental_stage": null,
+        "platform": null,
+        "software": null,
+        "software_version": null
+      },
+      "topics": [
+        "spatial_domains",
+        "cell_annotation",
+        "spatial_neighborhood"
+      ]
+    },
+    {
+      "source_key": "paper-mouse-gastrulation-2025",
+      "version": "2025-PMC7618461-20261003-49938b8ba306",
+      "title": "A spatiotemporal atlas of mouse gastrulation and early organogenesis to explore axial patterning and project in vitro models onto in vivo space.",
+      "publisher": "Cell reports",
+      "canonical_uri": "https://doi.org/10.1016/j.celrep.2025.116047",
+      "fetch_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7618461/fullTextXML",
+      "format": "jats",
+      "role": "scientific_evidence",
+      "origin": "external_original",
+      "selectors": [],
+      "html_selector": "main",
+      "license": "CC-BY-4.0",
+      "license_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7618461/fullTextXML",
+      "license_marker": "creativecommons.org/licenses/by/4.0",
+      "expected_sha256": "49938b8ba306522f0f976c856ab54b4653d8230261b28115c6a2f4301d481af4",
+      "doi": "10.1016/j.celrep.2025.116047",
+      "pmcid": "PMC7618461",
+      "conditions": {
+        "species": null,
+        "tissue": null,
+        "developmental_stage": null,
+        "platform": null,
+        "software": null,
+        "software_version": null
+      },
+      "topics": [
+        "biological_application",
+        "mouse_embryo",
+        "gastrulation",
+        "developmental_atlas"
+      ]
+    },
+    {
+      "source_key": "paper-mouse-gastrulation-lineages",
+      "version": "2023-PMC10502153-20261003-cfb709d2921f",
+      "title": "Time space and single-cell resolved tissue lineage trajectories and laterality of body plan at gastrulation.",
+      "publisher": "Nature communications",
+      "canonical_uri": "https://doi.org/10.1038/s41467-023-41482-5",
+      "fetch_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10502153/fullTextXML",
+      "format": "jats",
+      "role": "scientific_evidence",
+      "origin": "external_original",
+      "selectors": [],
+      "html_selector": "main",
+      "license": "CC-BY-4.0",
+      "license_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10502153/fullTextXML",
+      "license_marker": "creativecommons.org/licenses/by/4.0",
+      "expected_sha256": "cfb709d2921fc21ab5684a4cf131a01c89a5d99d54a0afaa843f24824d984d76",
+      "doi": "10.1038/s41467-023-41482-5",
+      "pmcid": "PMC10502153",
+      "conditions": {
+        "species": null,
+        "tissue": null,
+        "developmental_stage": null,
+        "platform": null,
+        "software": null,
+        "software_version": null
+      },
+      "topics": [
+        "biological_application",
+        "mouse_embryo",
+        "gastrulation",
+        "lineage_trajectory"
+      ]
+    }
+  ]
+}

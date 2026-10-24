@@ -1,0 +1,41 @@
+# ST Agent — Spatial Transcriptomics Analysis Agent
+# Python >= 3.11 required
+#
+# Install: pip install -r requirements.txt
+# For Windows/WSL, also install h5py from conda if pip build fails:
+#   conda install -c conda-forge h5py>=3.10
+# For leidenalg build issues on Windows:
+#   conda install -c conda-forge leidenalg
+
+# ── Agent Framework (LangGraph + LLM) ──────────────────────
+langgraph>=0.3.0
+langchain>=0.3.0
+langchain-openai>=0.3.0
+langchain-core>=0.3.0
+pydantic>=2.0.0
+
+# ── Spatial Transcriptomics ────────────────────────────────
+scanpy>=1.10.0
+squidpy>=1.5.0
+anndata>=0.10.0
+h5py>=3.10                     # .h5ad file I/O (anndata backend)
+
+# ── Web UI ─────────────────────────────────────────────────
+streamlit>=1.40.0
+plotly>=5.24.0
+kaleido>=0.2.1                 # Plotly static image export (PNG)
+
+# ── Scientific Computing ───────────────────────────────────
+numpy>=1.26.0
+scipy>=1.12.0
+pandas>=2.0.0
+scikit-learn>=1.4.0            # UMAP, kNN (scanpy dependency)
+leidenalg>=0.10.0              # Leiden clustering (scanpy dependency)
+
+# ── Visualization (transitive) ─────────────────────────────
+matplotlib>=3.8.0              # scanpy/squidpy built-in plots
+pillow>=10.0.0                 # kaleido image rendering
+
+# ── Utilities ──────────────────────────────────────────────
+python-dotenv>=1.0.0           # .env file loading
+requests>=2.32.0               # NCBI PubMed, Enrichr, mygene APIs

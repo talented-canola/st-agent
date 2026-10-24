@@ -1,0 +1,27 @@
+{
+  "version": "st-agent-seed-1",
+  "sources": [
+    {
+      "source_key": "scanpy-qc-1.11.5",
+      "source_type": "official_documentation_summary",
+      "canonical_uri": "https://scanpy.readthedocs.io/en/stable/generated/scanpy.pp.calculate_qc_metrics.html",
+      "version": "1.11.5",
+      "license": "BSD-3-Clause",
+      "trust_tier": "official",
+      "sha256": "9d90b519d299328d3eb5d2055f6a0ffc508c765d5f50bfd794200e9767bb481a",
+      "title": "Scanpy quality-control seed",
+      "local_path": "seed/scanpy_qc.md"
+    },
+    {
+      "source_key": "squidpy-paper-2022",
+      "source_type": "peer_reviewed_paper_summary",
+      "canonical_uri": "doi:10.1038/s41592-021-01358-2",
+      "version": "2022-01-31",
+      "license": "CC-BY-4.0",
+      "trust_tier": "peer_reviewed",
+      "sha256": "3340a76e85b19d06c5392b300a26b780a45f84e4130bb17955775e55dca8c937",
+      "title": "Squidpy spatial-analysis seed",
+      "local_path": "seed/squidpy_overview.md"
+    }
+  ]
+}

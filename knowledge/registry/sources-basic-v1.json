@@ -1,0 +1,482 @@
+{
+  "schema_version": 1,
+  "origin": "external_original",
+  "sources": [
+    {
+      "source_key": "scanpy-qc",
+      "version": "1.11.5@cf8b46dea735c35a629abfaa2e1bab9047281e34",
+      "title": "Scanpy official API docstrings: calculate_qc_metrics",
+      "publisher": "scverse / Scanpy contributors",
+      "canonical_uri": "https://github.com/scverse/scanpy/blob/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/preprocessing/_qc.py",
+      "fetch_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/preprocessing/_qc.py",
+      "format": "python_docstrings",
+      "role": "method",
+      "selectors": [
+        "calculate_qc_metrics"
+      ],
+      "license": "BSD-3-Clause",
+      "license_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/LICENSE",
+      "license_marker": "BSD 3-Clause License",
+      "conditions": {
+        "software": "scanpy",
+        "software_version": "1.11.5",
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "quality_control",
+        "count_source"
+      ]
+    },
+    {
+      "source_key": "scanpy-filter-log",
+      "version": "1.11.5@cf8b46dea735c35a629abfaa2e1bab9047281e34",
+      "title": "Scanpy official API docstrings: filter_cells, filter_genes, log1p",
+      "publisher": "scverse / Scanpy contributors",
+      "canonical_uri": "https://github.com/scverse/scanpy/blob/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/preprocessing/_simple.py",
+      "fetch_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/preprocessing/_simple.py",
+      "format": "python_docstrings",
+      "role": "method",
+      "selectors": [
+        "filter_cells",
+        "filter_genes",
+        "log1p"
+      ],
+      "license": "BSD-3-Clause",
+      "license_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/LICENSE",
+      "license_marker": "BSD 3-Clause License",
+      "conditions": {
+        "software": "scanpy",
+        "software_version": "1.11.5",
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "filtering",
+        "log_transform"
+      ]
+    },
+    {
+      "source_key": "scanpy-normalization",
+      "version": "1.11.5@cf8b46dea735c35a629abfaa2e1bab9047281e34",
+      "title": "Scanpy official API docstrings: normalize_total",
+      "publisher": "scverse / Scanpy contributors",
+      "canonical_uri": "https://github.com/scverse/scanpy/blob/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/preprocessing/_normalization.py",
+      "fetch_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/preprocessing/_normalization.py",
+      "format": "python_docstrings",
+      "role": "method",
+      "selectors": [
+        "normalize_total"
+      ],
+      "license": "BSD-3-Clause",
+      "license_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/LICENSE",
+      "license_marker": "BSD 3-Clause License",
+      "conditions": {
+        "software": "scanpy",
+        "software_version": "1.11.5",
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "normalization"
+      ]
+    },
+    {
+      "source_key": "scanpy-scale",
+      "version": "1.11.5@cf8b46dea735c35a629abfaa2e1bab9047281e34",
+      "title": "Scanpy official API docstrings: scale",
+      "publisher": "scverse / Scanpy contributors",
+      "canonical_uri": "https://github.com/scverse/scanpy/blob/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/preprocessing/_scale.py",
+      "fetch_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/preprocessing/_scale.py",
+      "format": "python_docstrings",
+      "role": "method",
+      "selectors": [
+        "scale"
+      ],
+      "license": "BSD-3-Clause",
+      "license_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/LICENSE",
+      "license_marker": "BSD 3-Clause License",
+      "conditions": {
+        "software": "scanpy",
+        "software_version": "1.11.5",
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "scaling"
+      ]
+    },
+    {
+      "source_key": "scanpy-hvg",
+      "version": "1.11.5@cf8b46dea735c35a629abfaa2e1bab9047281e34",
+      "title": "Scanpy official API docstrings: highly_variable_genes",
+      "publisher": "scverse / Scanpy contributors",
+      "canonical_uri": "https://github.com/scverse/scanpy/blob/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/preprocessing/_highly_variable_genes.py",
+      "fetch_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/preprocessing/_highly_variable_genes.py",
+      "format": "python_docstrings",
+      "role": "method",
+      "selectors": [
+        "highly_variable_genes"
+      ],
+      "license": "BSD-3-Clause",
+      "license_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/LICENSE",
+      "license_marker": "BSD 3-Clause License",
+      "conditions": {
+        "software": "scanpy",
+        "software_version": "1.11.5",
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "feature_selection",
+        "batch_key"
+      ]
+    },
+    {
+      "source_key": "scanpy-pca",
+      "version": "1.11.5@cf8b46dea735c35a629abfaa2e1bab9047281e34",
+      "title": "Scanpy official API docstrings: pca",
+      "publisher": "scverse / Scanpy contributors",
+      "canonical_uri": "https://github.com/scverse/scanpy/blob/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/preprocessing/_pca/__init__.py",
+      "fetch_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/preprocessing/_pca/__init__.py",
+      "format": "python_docstrings",
+      "role": "method",
+      "selectors": [
+        "pca"
+      ],
+      "license": "BSD-3-Clause",
+      "license_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/LICENSE",
+      "license_marker": "BSD 3-Clause License",
+      "conditions": {
+        "software": "scanpy",
+        "software_version": "1.11.5",
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "dimensionality_reduction"
+      ]
+    },
+    {
+      "source_key": "scanpy-neighbors",
+      "version": "1.11.5@cf8b46dea735c35a629abfaa2e1bab9047281e34",
+      "title": "Scanpy official API docstrings: neighbors",
+      "publisher": "scverse / Scanpy contributors",
+      "canonical_uri": "https://github.com/scverse/scanpy/blob/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/neighbors/__init__.py",
+      "fetch_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/neighbors/__init__.py",
+      "format": "python_docstrings",
+      "role": "method",
+      "selectors": [
+        "neighbors"
+      ],
+      "license": "BSD-3-Clause",
+      "license_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/LICENSE",
+      "license_marker": "BSD 3-Clause License",
+      "conditions": {
+        "software": "scanpy",
+        "software_version": "1.11.5",
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "neighbor_graph"
+      ]
+    },
+    {
+      "source_key": "scanpy-leiden",
+      "version": "1.11.5@cf8b46dea735c35a629abfaa2e1bab9047281e34",
+      "title": "Scanpy official API docstrings: leiden",
+      "publisher": "scverse / Scanpy contributors",
+      "canonical_uri": "https://github.com/scverse/scanpy/blob/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/tools/_leiden.py",
+      "fetch_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/tools/_leiden.py",
+      "format": "python_docstrings",
+      "role": "method",
+      "selectors": [
+        "leiden"
+      ],
+      "license": "BSD-3-Clause",
+      "license_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/LICENSE",
+      "license_marker": "BSD 3-Clause License",
+      "conditions": {
+        "software": "scanpy",
+        "software_version": "1.11.5",
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "clustering",
+        "resolution"
+      ]
+    },
+    {
+      "source_key": "scanpy-umap",
+      "version": "1.11.5@cf8b46dea735c35a629abfaa2e1bab9047281e34",
+      "title": "Scanpy official API docstrings: umap",
+      "publisher": "scverse / Scanpy contributors",
+      "canonical_uri": "https://github.com/scverse/scanpy/blob/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/tools/_umap.py",
+      "fetch_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/tools/_umap.py",
+      "format": "python_docstrings",
+      "role": "method",
+      "selectors": [
+        "umap"
+      ],
+      "license": "BSD-3-Clause",
+      "license_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/LICENSE",
+      "license_marker": "BSD 3-Clause License",
+      "conditions": {
+        "software": "scanpy",
+        "software_version": "1.11.5",
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "embedding"
+      ]
+    },
+    {
+      "source_key": "scanpy-markers",
+      "version": "1.11.5@cf8b46dea735c35a629abfaa2e1bab9047281e34",
+      "title": "Scanpy official API docstrings: rank_genes_groups, filter_rank_genes_groups",
+      "publisher": "scverse / Scanpy contributors",
+      "canonical_uri": "https://github.com/scverse/scanpy/blob/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/tools/_rank_genes_groups.py",
+      "fetch_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/tools/_rank_genes_groups.py",
+      "format": "python_docstrings",
+      "role": "method",
+      "selectors": [
+        "rank_genes_groups",
+        "filter_rank_genes_groups"
+      ],
+      "license": "BSD-3-Clause",
+      "license_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/LICENSE",
+      "license_marker": "BSD 3-Clause License",
+      "conditions": {
+        "software": "scanpy",
+        "software_version": "1.11.5",
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "differential_expression",
+        "markers",
+        "test_assumptions"
+      ]
+    },
+    {
+      "source_key": "scanpy-dotplot",
+      "version": "1.11.5@cf8b46dea735c35a629abfaa2e1bab9047281e34",
+      "title": "Scanpy official API docstrings: dotplot",
+      "publisher": "scverse / Scanpy contributors",
+      "canonical_uri": "https://github.com/scverse/scanpy/blob/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/plotting/_dotplot.py",
+      "fetch_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/plotting/_dotplot.py",
+      "format": "python_docstrings",
+      "role": "method",
+      "selectors": [
+        "dotplot"
+      ],
+      "license": "BSD-3-Clause",
+      "license_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/LICENSE",
+      "license_marker": "BSD 3-Clause License",
+      "conditions": {
+        "software": "scanpy",
+        "software_version": "1.11.5",
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "marker_visualization"
+      ]
+    },
+    {
+      "source_key": "scanpy-matrixplot",
+      "version": "1.11.5@cf8b46dea735c35a629abfaa2e1bab9047281e34",
+      "title": "Scanpy official API docstrings: matrixplot",
+      "publisher": "scverse / Scanpy contributors",
+      "canonical_uri": "https://github.com/scverse/scanpy/blob/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/plotting/_matrixplot.py",
+      "fetch_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/plotting/_matrixplot.py",
+      "format": "python_docstrings",
+      "role": "method",
+      "selectors": [
+        "matrixplot"
+      ],
+      "license": "BSD-3-Clause",
+      "license_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/LICENSE",
+      "license_marker": "BSD 3-Clause License",
+      "conditions": {
+        "software": "scanpy",
+        "software_version": "1.11.5",
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "marker_visualization"
+      ]
+    },
+    {
+      "source_key": "scanpy-scatter",
+      "version": "1.11.5@cf8b46dea735c35a629abfaa2e1bab9047281e34",
+      "title": "Scanpy official API docstrings: embedding, umap, spatial",
+      "publisher": "scverse / Scanpy contributors",
+      "canonical_uri": "https://github.com/scverse/scanpy/blob/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/plotting/_tools/scatterplots.py",
+      "fetch_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/plotting/_tools/scatterplots.py",
+      "format": "python_docstrings",
+      "role": "method",
+      "selectors": [
+        "embedding",
+        "umap",
+        "spatial"
+      ],
+      "license": "BSD-3-Clause",
+      "license_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/LICENSE",
+      "license_marker": "BSD 3-Clause License",
+      "conditions": {
+        "software": "scanpy",
+        "software_version": "1.11.5",
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "embedding_visualization",
+        "spatial_coordinates"
+      ]
+    },
+    {
+      "source_key": "scanpy-qc-plot",
+      "version": "1.11.5@cf8b46dea735c35a629abfaa2e1bab9047281e34",
+      "title": "Scanpy official API docstrings: violin",
+      "publisher": "scverse / Scanpy contributors",
+      "canonical_uri": "https://github.com/scverse/scanpy/blob/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/plotting/_anndata.py",
+      "fetch_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/src/scanpy/plotting/_anndata.py",
+      "format": "python_docstrings",
+      "role": "method",
+      "selectors": [
+        "violin"
+      ],
+      "license": "BSD-3-Clause",
+      "license_url": "https://raw.githubusercontent.com/scverse/scanpy/cf8b46dea735c35a629abfaa2e1bab9047281e34/LICENSE",
+      "license_marker": "BSD 3-Clause License",
+      "conditions": {
+        "software": "scanpy",
+        "software_version": "1.11.5",
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "quality_control_visualization"
+      ]
+    },
+    {
+      "source_key": "anndata-model",
+      "version": "0.12.19@16932f22d2a2542f1f8f0864fa34af2d6bc515c3",
+      "title": "AnnData official data model and serialization docstrings",
+      "publisher": "scverse / AnnData contributors",
+      "canonical_uri": "https://github.com/scverse/anndata/blob/16932f22d2a2542f1f8f0864fa34af2d6bc515c3/src/anndata/_core/anndata.py",
+      "fetch_url": "https://raw.githubusercontent.com/scverse/anndata/16932f22d2a2542f1f8f0864fa34af2d6bc515c3/src/anndata/_core/anndata.py",
+      "format": "python_docstrings",
+      "role": "method",
+      "selectors": [
+        "AnnData",
+        "AnnData.raw",
+        "AnnData.write_h5ad"
+      ],
+      "license": "BSD-3-Clause",
+      "license_url": "https://raw.githubusercontent.com/scverse/anndata/16932f22d2a2542f1f8f0864fa34af2d6bc515c3/LICENSE",
+      "license_marker": "BSD 3-Clause License",
+      "conditions": {
+        "software": "anndata",
+        "software_version": "0.12.19",
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "data_model",
+        "raw_vs_processed",
+        "h5ad_serialization"
+      ]
+    },
+    {
+      "source_key": "paper-squidpy",
+      "version": "2022-PMC8828470-snapshot1",
+      "title": "Squidpy: a scalable framework for spatial omics analysis",
+      "publisher": "Nature Methods / article authors",
+      "canonical_uri": "https://doi.org/10.1038/s41592-021-01358-2",
+      "fetch_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8828470/fullTextXML",
+      "format": "jats",
+      "role": "scientific_evidence",
+      "license": "CC-BY-4.0",
+      "license_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8828470/fullTextXML",
+      "license_marker": "creativecommons.org/licenses/by/4.0",
+      "doi": "10.1038/s41592-021-01358-2",
+      "pmcid": "PMC8828470",
+      "conditions": {
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "spatial_methods",
+        "spatial_neighbors",
+        "image_features",
+        "method_scope"
+      ]
+    },
+    {
+      "source_key": "spatialagent-annotation",
+      "version": "521ea0374451875db1697d4ade8f4479244d1ee4",
+      "title": "SpatialAgent external workflow reference: annotation",
+      "publisher": "Genentech / SpatialAgent contributors",
+      "canonical_uri": "https://github.com/Genentech/SpatialAgent/blob/521ea0374451875db1697d4ade8f4479244d1ee4/spatialagent/skill/annotation.md",
+      "fetch_url": "https://raw.githubusercontent.com/Genentech/SpatialAgent/521ea0374451875db1697d4ade8f4479244d1ee4/spatialagent/skill/annotation.md",
+      "format": "markdown",
+      "role": "workflow_reference",
+      "license": "MIT",
+      "license_url": "https://raw.githubusercontent.com/Genentech/SpatialAgent/521ea0374451875db1697d4ade8f4479244d1ee4/LICENSE.txt",
+      "license_marker": "MIT License",
+      "conditions": {
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "cell_annotation",
+        "marker_validation"
+      ]
+    },
+    {
+      "source_key": "spatialagent-panel_design",
+      "version": "521ea0374451875db1697d4ade8f4479244d1ee4",
+      "title": "SpatialAgent external workflow reference: panel_design",
+      "publisher": "Genentech / SpatialAgent contributors",
+      "canonical_uri": "https://github.com/Genentech/SpatialAgent/blob/521ea0374451875db1697d4ade8f4479244d1ee4/spatialagent/skill/panel_design.md",
+      "fetch_url": "https://raw.githubusercontent.com/Genentech/SpatialAgent/521ea0374451875db1697d4ade8f4479244d1ee4/spatialagent/skill/panel_design.md",
+      "format": "markdown",
+      "role": "workflow_reference",
+      "license": "MIT",
+      "license_url": "https://raw.githubusercontent.com/Genentech/SpatialAgent/521ea0374451875db1697d4ade8f4479244d1ee4/LICENSE.txt",
+      "license_marker": "MIT License",
+      "conditions": {
+        "platform": null,
+        "tissue": null,
+        "species": null
+      },
+      "topics": [
+        "targeted_panel_design",
+        "gene_selection"
+      ]
+    }
+  ]
+}

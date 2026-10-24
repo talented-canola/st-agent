@@ -1,0 +1,129 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+.coverage
+htmlcov/
+*.win-amd64-*
+annoy
+
+# Environment
+.env
+*.env
+
+# Data (large files — anywhere in project)
+*.h5ad
+!data/.gitkeep
+data/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Claude Code
+.claude/
+CLAUDE.md
+
+# Development docs (not needed for running)
+docs/
+
+# Test files
+tests/
+test_*.py
+verify_*.py
+
+# Utility scripts (not needed for running)
+scripts/
+download_*.py
+cleanup.py
+*.sh
+
+# Examples / test results
+examples/
+
+# Deprecated memory components
+agent/memory/profile_memory.py
+agent/memory/mem0_memory.py
+agent/memory/mem0_config.py
+agent/memory/session_summary.py
+
+# ST Agent v2 evaluation assets must remain reproducible
+!evals/
+!evals/**/*.py
+!evals/**/*.json
+!evals/**/*.jsonl
+
+# ST Agent v2 tests are part of the reproducible source tree
+!tests_v2/
+!tests_v2/**/*.py
+
+# Local research projects and runtime evidence (never publish user data)
+/artifacts/
+/datasets/
+/logs/
+/project.sqlite*
+/project.yaml
+/knowledge/*.sqlite*
+/knowledge/raw/
+/knowledge/parsed/
+/knowledge/units/
+/knowledge/indexes/
+/knowledge/reports/
+/knowledge/registry/[0-9a-f]*.json
+.pytest_cache/
+# Local pinned model weights are reproducible downloads, not repository artifacts.
+knowledge/models/
+
+# Release excludes local execution and private documents
+/.agents/
+/cache/
+/tmp/
+/reports/
+/.ruff_cache/
+*.docx
+*.pdf
+/.env.*
+!/.env.example
+*.pem
+*.key
+
+# Internal development material stays local; public docs use explicit allowlist
+/specs/
+/docs/
+/AGENTS.md
+/SPEC.md
+/*_TASK.md
+/*_DESIGN.md
+/ST_AGENT_*.md
+/programe.md
+/docs_v2/*
+!/docs_v2/README.md
+!/docs_v2/releases/
+/docs_v2/releases/*
+!/docs_v2/releases/V2_RELEASE.md
+
+# Runtime-only public distribution; development files remain local
+/*.md
+/.gitattributes
+/config.py
+/environment.yml
+/tests_v2/
+/evals/*
+!/evals/run_local_bge_worker.py
+/docs_v2/
+/scripts/
+/data/
+/knowledge/README.md
+/knowledge/literature/
